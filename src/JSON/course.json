@@ -1,0 +1,36 @@
+{
+    "course":[
+        {
+            "name":"XYZ",
+            "img":"",
+            "lastUpdated":"4/08/22",
+            "lessions":1,
+            "minutes":13,
+            "tags":["Marketing"]
+        },
+        {
+            "name":"Sales vs marketing",
+            "img":"",
+            "lastUpdated":"4/08/22",
+            "lessions":3,
+            "minutes":25,
+            "tags":["Sales","Marketing"]
+        },
+        {
+            "name":"How to Unclog a Sink",
+            "img":"",
+            "lastUpdated":"4/08/22",
+            "lessions":6,
+            "minutes":15,
+            "tags":["Sales"]
+        },
+        {
+            "name":"How Google Analytics Ruined the Marketing",
+            "img":"",
+            "lastUpdated":"4/08/22",
+            "lessions":3,
+            "minutes":25,
+            "tags":["Sales","Marketing"]
+        }
+    ]
+}
