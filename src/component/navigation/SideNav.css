@@ -22,11 +22,14 @@
 }
 .sidenav-item{
     list-style-type: none;
+    color: white!important;
 }
 .sidenav-item:hover,.sidenav-item.active{
     background-color: #343434;
 }
-
+.sidenav-item span, .sidenav-text{
+    color: white!important;
+}
 .sidenav-link{
     display: flex;
     align-items: center;

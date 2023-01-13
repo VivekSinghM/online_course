@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -7,7 +8,8 @@ function Navbar() {
         KNOWLEDGE
       </span>
       <div className="form-inline">
-        <button
+        <Link
+          to="/create_course"
           className="my-2 my-sm-0 py-1 px-2 text-white"
           style={{
             backgroundColor: "#389dd1",
@@ -17,7 +19,7 @@ function Navbar() {
           }}
         >
           <span>CREATE COURSE</span>
-        </button>
+        </Link>
         <img
           src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
           className="img-fluid rounded-circle mx-3"
@@ -40,15 +42,15 @@ function Navbar() {
           </span>
           </div>
           <div className="dropdown-menu dropdown-menu-right">
-            <button className="dropdown-item" type="button">
+            <Link to="/profile" className="dropdown-item" type="button">
               Profile
-            </button>
-            <button className="dropdown-item" type="button">
+            </Link>
+            <Link to="/O2" className="dropdown-item" type="button">
               option 2
-            </button>
-            <button className="dropdown-item" type="button">
-              setting
-            </button>
+            </Link>
+            <Link to="/settings" className="dropdown-item" type="button">
+              settings
+            </Link>
           </div>
         </div>
       </div>

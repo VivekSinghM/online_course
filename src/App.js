@@ -1,27 +1,25 @@
-import './App.css';
-import Navbar from './component/navigation/Navbar';
-import SideNav from './component/navigation/SideNav';
-import Knowledge from './component/Knowledge/Knowledge';
-import { useContext, useEffect } from 'react';
-import { CourseContext } from './context/courseProvider';
-import { data } from './JSON/course';
-
+import "./App.css";
+import { useContext, useEffect } from "react";
+import { CourseContext } from "./context/courseProvider";
+import { data } from "./JSON/course";
+import Layout from "./component/Layout";
+import { Navigate, Route, Routes } from "react-router";
+import Knowledge from "./component/Knowledge/Knowledge";
 
 function App() {
-  const {setAllCourse} = useContext(CourseContext);
-  useEffect(()=>{
-    setAllCourse(data.course)
-  },[])
+  const { setAllCourse } = useContext(CourseContext);
+  useEffect(() => {
+    setAllCourse(data.course);
+  }, []);
   return (
-      <>
-        <div className='row mx-0' style={{minWidth:'605px'}}>
-        <SideNav/>
-        <div className='col p-0'>
-          <Navbar/>
-        <Knowledge/>
-          </div>
-        </div>
-      </>
+    <>
+      <Layout>
+        <Routes>
+          <Route path="/*" element={<Navigate to="/knowladge" />}/>
+          <Route path="/knowladge" element={<Knowledge />}/>
+        </Routes>
+      </Layout>
+    </>
   );
 }
 
