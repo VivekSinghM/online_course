@@ -2,6 +2,7 @@
     border-right: 5px solid #147fb5;
     padding: 8px;
     max-width: 260px;
+    font-size: .8em;
 }
 .sidenav-brand{
     height: "10vh";
@@ -36,7 +37,7 @@
     border-top: 1px solid #2c2c2c;
 }
 
-@media only screen and (max-width: 600px)  {
+@media only screen and (max-width: 720px)  {
     .sidenav-brand, .sidenav-footer, .sidenav-text {
         display: none;
     }

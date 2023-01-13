@@ -2,8 +2,8 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="navbar navbar-expand-lg navbar-light bg-light justify-content-between px-4">
-      <span className="navbar-brand mx-4" style={{ fontWeight: 500 }}>
+    <div className="navbar navbar-expand-lg border-bottom justify-content-between pr-4 pl-5">
+      <span className="navbar-brand ">
         KNOWLEDGE
       </span>
       <div className="form-inline">
@@ -20,33 +20,33 @@ function Navbar() {
         </button>
         <img
           src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-          class="img-fluid rounded-circle mx-3"
+          className="img-fluid rounded-circle mx-3"
           alt="profile"
           style={{ maxWidth: "45px" }}
         ></img>
 
-        <div class="btn-group">
+        <div className="btn-group">
           <div
-          className="nav-link h-100 d-flex align-items-center"
+          className="nav-link px-1 h-100 d-flex align-items-center"
           data-toggle="dropdown"
           aria-haspopup="true"
           aria-expanded="false"
           >
           <span
-            class="material-symbols-outlined"
+            className="material-symbols-outlined"
             style={{cursor:"pointer"}}
           >
             more_vert
           </span>
           </div>
-          <div class="dropdown-menu dropdown-menu-right">
-            <button class="dropdown-item" type="button">
+          <div className="dropdown-menu dropdown-menu-right">
+            <button className="dropdown-item" type="button">
               Profile
             </button>
-            <button class="dropdown-item" type="button">
+            <button className="dropdown-item" type="button">
               option 2
             </button>
-            <button class="dropdown-item" type="button">
+            <button className="dropdown-item" type="button">
               setting
             </button>
           </div>

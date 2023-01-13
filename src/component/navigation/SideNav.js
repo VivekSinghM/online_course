@@ -17,37 +17,37 @@ function SideNav() {
         <ul className="sidenav-nav">
           <li className="sidenav-item p-2">
             <div className="sidenav-link">
-              <span class="material-symbols-outlined mx-2">home</span>
+              <span className="material-symbols-outlined mx-2">home</span>
               <span className="sidenav-text mx-2">DASHBOARD</span>
             </div>
           </li>
           <li className="sidenav-item  p-2 active">
             <div className="sidenav-link">
-              <span class="material-symbols-outlined mx-2">school</span>
+              <span className="material-symbols-outlined mx-2">school</span>
               <span className="sidenav-text mx-2">KNOWLEDGE</span>
             </div>
           </li>
           <li className="sidenav-item p-2">
             <div className="sidenav-link">
-              <span class="material-symbols-outlined mx-2">group</span>
+              <span className="material-symbols-outlined mx-2">group</span>
               <span className="sidenav-text mx-2">MEMBERS</span>
             </div>
           </li>
           <li className="sidenav-item p-2">
             <div className="sidenav-link">
-              <span class="material-symbols-outlined mx-2">group</span>
+              <span className="material-symbols-outlined mx-2">group</span>
               <span className="sidenav-text mx-2">TEAMS</span>
             </div>
           </li>
           <li className="sidenav-item p-2">
             <div className="sidenav-link">
-              <span class="material-symbols-outlined mx-2">folder</span>
+              <span className="material-symbols-outlined mx-2">folder</span>
               <span className="sidenav-text mx-2">VAULT</span>
             </div>
           </li>
           <li className="sidenav-item p-2">
             <div className="sidenav-link">
-              <span class="material-symbols-outlined mx-2">chat</span>
+              <span className="material-symbols-outlined mx-2">chat</span>
               <span className="sidenav-text mx-2">CHAT</span>
             </div>
           </li>
@@ -55,19 +55,19 @@ function SideNav() {
         <ul className="sidenav-nav">
           <li className="sidenav-item p-2">
             <div className="sidenav-link">
-              <span class="material-symbols-outlined mx-2">settings</span>
+              <span className="material-symbols-outlined mx-2">settings</span>
               <span className="sidenav-text mx-2">SETTINGS</span>
             </div>
           </li>
           <li className="sidenav-item p-2">
             <div className="sidenav-link">
-              <span class="material-symbols-outlined mx-2">corporate_fare</span>
+              <span className="material-symbols-outlined mx-2">corporate_fare</span>
               <span className="sidenav-text mx-2">COMPANY</span>
             </div>
           </li>
           <li className="sidenav-item p-2">
             <div className="sidenav-link">
-              <span class="material-symbols-outlined mx-2">account_circle</span>
+              <span className="material-symbols-outlined mx-2">account_circle</span>
               <span className="sidenav-text mx-2">MY PROFILE</span>
             </div>
           </li>
